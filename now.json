@@ -1,0 +1,1 @@
+{"version":2,"name":"serverless-todo","builds":[{"src":"package.json","use":"@now/next"}]}
