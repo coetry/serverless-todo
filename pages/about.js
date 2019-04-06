@@ -17,13 +17,20 @@ class AboutPage extends Component {
             This is another page of the SSR example, you accessed it{" "}
             <strong>{this.props.isServer ? "server" : "client"} side</strong>.
           </p>
-          <p>
-            You can reload to see how the page change.
-          </p>
+          <p>You can reload to see how the page change.</p>
           <Link href="/">
             <a>Go to Home</a>
           </Link>
         </section>
+        <style jsx>{`
+          a,
+          a:visited {
+            text-decoration: none;
+            color: inherit;
+            font-size: 16px;
+            font-weight: 600;
+          }
+        `}</style>
       </main>
     );
   }

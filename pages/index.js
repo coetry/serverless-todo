@@ -10,6 +10,15 @@ function Index() {
           <a>Go to About Me</a>
         </Link>
       </section>
+      <style jsx global>{`
+        a,
+        a:visited {
+          text-decoration: none;
+          color: inherit;
+          font-size: 16px;
+          font-weight: 600;
+        }
+      `}</style>
     </main>
   );
 }
